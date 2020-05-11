@@ -1,0 +1,143 @@
+.content-header{
+    background-color: #de181b;
+    height:240px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-bottom:20px;
+  .personal-header-pic{
+      position: absolute;
+      width: 94px;
+      height: 94px;
+      border-radius: 50%;
+      background-color: #fff;
+      top:25%;
+      left:50%;
+      margin-left: -47px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .iconfont{
+        color:red;
+        font-size: 40px;
+      }
+  }  
+  .personal-header-login{
+    position: absolute;
+    color:#fff;
+    width: 200px;
+    height:64px;
+    // background-color: #fff;
+    top:75%;
+    left:50%;
+    margin-left: -100px;
+    display: flex;
+    .item{
+        flex:1;
+        font-size:24px ;
+    }
+  }
+}
+
+.order{
+    padding:0 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 50px;
+    .order-left{
+        color: black;
+        float: left;
+    }
+    .order-right{
+        
+        float: right;
+    }
+    .iconfont{
+        font-size: 30px;;
+    }
+    span{
+        font-size: 18px;
+        padding:0 5px;
+    }
+}
+.four-list{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 18px;
+    .item{
+        width:25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:20px 0;
+        .iconfont{
+            font-size: 30px;
+        }
+        span{
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    }
+}
+.mymoney{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    padding:0 10px;
+    margin-bottom: 1px;
+    .iconfont{
+        font-size: 30px;;
+    }
+    span{
+        font-size: 18px;
+        padding:0 5px;
+    }
+}
+.money-list{
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    display: flex;
+    background-color: #fff;
+    margin-bottom:10px;
+    span{
+        flex:1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+    }
+}
+
+.detail-list-item {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    padding:0 10px;
+    margin-bottom: 1px;
+    .iconfont{
+        font-size: 30px;;
+    }
+    span{
+        font-size: 18px;
+        padding:0 5px;
+    }
+    .right{
+        float: right;
+    }
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    padding:20px 25px 10px 25px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-size: 17px;
+    color:#afafaf;
+}

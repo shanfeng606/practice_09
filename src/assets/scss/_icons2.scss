@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1768077 */
+  src: url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.eot');
+  src: url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1768077_0y4l0zkp6czi.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//自己加的图标
+.icon-people:before {
+  content: "\e601";
+}
+.icon-purse:before {
+  content: "\e69b";
+}
+.icon-exit:before {
+  content: "\e63b";
+}
+.icon-order:before {
+  content: "\e611";
+}
+.icon-arr:before {
+  content: "\e603";
+  // font-size: 14px;
+
+}
+.icon-box:before {
+  content: "\e617";
+}
+.icon-msg:before {
+  content: "\e66d";
+}
+.icon-money:before {
+  content: "\e69a";
+}
+.icon-Money:before {
+  content: "\e783";
+}
+.icon-aftersale:before {
+  content: "\e61e";
+}
+.icon-idea:before {
+  content: "\e879";
+}
+.icon-address:before {
+  content: "\e69e";
+}
+.icon-exit:before {
+  content: "\e63b";
+}
+.icon-tel:before {
+  content: "\e6e8";
+}
+
+
+
+
